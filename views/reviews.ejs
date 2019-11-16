@@ -1,0 +1,70 @@
+<%- include("partials/header") -%>
+
+<div id="landingpage">
+  <a class="myName animated fadeIn" href="/"><span class="namespan">KALYANMOY</span>BORAH</a>
+</div>
+
+
+
+<div class="blogpost animated zoomIn" style="width:50%; text-align:justify">
+<%  for(i=reviews.length-1; i>=0; i--){ %>
+    <h2 style="color: #c7004c; font-size:1.3rem; position:relative; top:10px; left: 20px;"><%= reviews[i].name %></h2>
+    <p style="color:black; padding:3%; "><%= reviews[i].review %></p>
+<%  } %>
+</div>
+
+
+<form action="/reviews" method="post">
+  <div class="form-group">
+
+    <label data-aos="fade-right" for="">Your Name</label>
+    <input data-aos="fade-left" name="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your name">
+
+  </div>
+
+  <div class="form-group">
+    <label data-aos="fade-right" for="">Write Review/Comment</label>
+    <textarea data-aos="fade-left" class="form-control" name="review" rows="8" cols="80"></textarea>
+  </div>
+
+
+
+  <button data-aos="fade-up" type="submit" class="btn btn-primary postbtn">Post</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+<div class="footer" style="position: relative; top:340px" id="contact" data-aos="zoom-in">
+
+  <div class="container footercont">
+    <div class="row">
+      <div class="col-sm">
+        <a href="#landingpage"><h5>KALYANMOY BORAH</h3></a>
+      </div>
+      <div class="col-sm">
+        <a class="link" href="https://www.facebook.com/kalyanmoy.borah1"><i class="fab fa-facebook-square"></i></a>
+        <a class="link" href="https://www.linkedin.com/in/kalyanmoyborah"><i class="fab fa-linkedin"></i></a>
+        <a class="link" href="https://github.com/KalyanmoyBorah"><i class="fab fa-github-square"></i></a>
+        <a class="link" href="mailto:borahkalyanmoy@gmail.com"><i class="fas fa-envelope-square"></i></a>
+      </div>
+      <div class="col-sm">
+        <p>copyright©2019, All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flaticon">Icons made by <a class="icona" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a class="icona" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+</div>
+
+
+
+
+
+<%- include("partials/footer") -%>

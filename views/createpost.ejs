@@ -1,0 +1,24 @@
+<%- include("partials/header") -%>
+<a class="myName" href="/"><span class="namespan">KALYANMOY</span>BORAH</a>
+<form action="/createpost" method="post">
+  <div class="form-group">
+
+    <label for="">Post Title</label>
+    <input name="title" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="What's the title?">
+
+  </div>
+  <div class="form-group">
+    <label for="">Date</label>
+    <input name="date" type="date" class="form-control" id="exampleInputPassword1" placeholder="What's the date?">
+  </div>
+  <div class="form-group">
+    <label for="">Write Post</label>
+    <textarea class="form-control" name="content" rows="8" cols="80"></textarea>
+  </div>
+
+
+
+  <button type="submit" class="btn btn-primary postbtn">Publish</button>
+</form>
+
+<%- include("partials/footer") -%>

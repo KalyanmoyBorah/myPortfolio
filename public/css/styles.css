@@ -1,0 +1,830 @@
+body {
+  background-color: #323232;
+}
+
+/* ................landing page............. */
+a {
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+
+}
+
+a:hover {
+  color: #979797;
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 70px;
+}
+
+.first {
+  right: 100px;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+}
+ .portfolio {
+   display: inline-block;
+   transform: rotate(270deg);
+   margin-top: 90px;
+   position: relative;
+   right: 35px;
+   font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+
+ }
+
+ .about {
+   display: inline-block;
+   transform: rotate(270deg);
+   margin-top: 130px;
+   position: relative;
+   right: 17px;
+   font-weight: 400;
+   font-family: 'Ubuntu', sans-serif;
+ }
+
+ .resume {
+   display: inline-block;
+   transform: rotate(270deg);
+   margin-top: 120px;
+   position: relative;
+   right: 22px;
+   font-weight: 400;
+   font-family: 'Ubuntu', sans-serif;
+ }
+
+ .middle {
+   right: 100px;
+ }
+
+ h1,h2,h3 {
+  font-family: 'Work Sans', sans-serif;
+   display: inline;
+
+ }
+
+ .coder {
+   position: relative;
+   top: 100px;
+   font-size: 7rem;
+   left: 50px;
+  background: -webkit-linear-gradient(#ffa1c5, #c7004c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-duration: 10s;
+  animation-delay: 5s;
+ }
+
+ .developer {
+   position: relative;
+   top: 50px;
+   font-size: 4rem;
+   left: 150px;
+   color: white;
+   animation-duration: 10s;
+   animation-delay: 3s;
+
+ }
+
+ .designer {
+   position: relative;
+   top: 147px;
+   font-size: 3rem;
+   color: white;
+   animation-duration: 10s;
+   animation-delay: 1s;
+ }
+
+ .aboutp {
+   font-family: 'Josefin Sans', sans-serif;
+   color: white;
+   margin-top: 150px;
+   text-align: justify;
+   font-size: 1rem;
+ }
+
+.myName {
+  margin-left: 30px;
+  font-size: 1.7rem;
+  position: relative;
+  top: 30px;
+  font-weight: lighter;
+  color: #979797;
+
+}
+
+.namespan {
+  font-weight: bold;
+  background: -webkit-linear-gradient(#ffa1c5, #c7004c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blog {
+  position: relative;
+  left: 100px;
+  top: 31px;
+}
+
+
+
+.contact {
+
+  position: relative;
+  left: 180px;
+  top: 31px;
+
+
+}
+/* .....................specialization..................... */
+
+.specialization {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  line-height: 2.5;
+}
+
+.spHeader, .sph1 {
+  color: white;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.sph1 {
+  background: -webkit-linear-gradient(#ffa1c5, #c7004c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.spimg {
+  padding: 3%;
+  border-radius: 10%;
+  background-color: #979797;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 100px;
+  width: 100px;
+}
+
+.spcol {
+  position: relative;
+  bottom: 15px;
+  background-color: white;
+  text-align: center;
+  border-radius: 4%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+
+.col1 {
+  position: relative;
+  left: 60px;
+
+}
+
+.col2 {
+  position: relative;
+  left: 120px;
+}
+h6 {
+  color: #c7004c;
+  font-weight: bolder;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.sph3 {
+  font-weight: bolder;
+}
+/* ...................portfolio.................. */
+
+.portfoliodiv  {
+  margin-bottom: 100px;
+}
+
+.col-lg-4 {
+  text-align: center;
+}
+.portCard {
+  margin-left: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+
+
+}
+.card-title {
+  font-weight: bolder;
+  color: #c7004c;
+}
+
+.card-text {
+  font-weight: normal;
+}
+
+
+.btn {
+  border-radius: 50%;
+}
+
+.portimg {
+  height: 200px;
+}
+
+
+
+/* .................overlay................. */
+
+
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #c7004c;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  opacity: 0.7;
+}
+
+.containers:hover .overlay {
+  bottom: 43%;
+  height: 57%;
+}
+
+.text {
+
+  color: yellow;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* ...................skills................ */
+
+.skills {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.skillcard {
+  margin: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.skillimg {
+  height: 30px;
+  width: 30px;
+}
+
+.skilltitle {
+  display: inline;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #5f6769;
+}
+
+.skillh6 {
+  display: inline;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  font-size: 1rem;
+}
+
+.progress {
+  margin-top: 20px;
+}
+
+/* ..................testimonials.............. */
+
+.user {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  left: 530px;
+  top: 30px;
+  border-radius: 100%;
+}
+
+.testimonials {
+  margin-bottom: 200px;
+}
+
+.item1, .item2, .item3 {
+  height: 300px;
+  width: 50%;
+  background-color: #d4d7dd;
+  margin-left: 340px;
+
+}
+
+#carouselExampleIndicators {
+  margin-top: 100px;
+
+}
+
+.carousel-control-prev {
+  margin-left: 205px;
+}
+
+.carousel-control-next {
+  margin-right: 200px;
+}
+
+.carousel-indicators {
+  margin-left:220px;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.client {
+  position: relative;
+  top: 50px;
+  left: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+
+}
+
+.review {
+  position: relative;
+  padding: 7%;
+  text-align: justify;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  top: 40px;
+}
+
+.clientname {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #c7004c;
+  margin-left: 10px;
+}
+
+.sendrev {
+  position: relative;
+  top: 120px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 1.2rem;
+
+}
+
+.revhere {
+  font-size: 2rem;
+  color: #c7004c;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* ................footer........... */
+
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.footercont {
+  position: relative;
+  top: 50px;
+}
+
+.flaticon {
+  position: relative;
+  top: 120px;
+  font-size: 0.8rem;
+}
+
+.icona {
+  color: black;
+  font-size: 0.8rem;
+}
+
+.link {
+  color: black;
+  font-size: 1.8rem;
+  margin: 10px;
+}
+
+h5 {
+  font-weight: bolder;
+  color: #c7004c;
+}
+
+/* ..................createpost............... */
+
+.form-group {
+  width: 50%;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  color: #ffa1c5;
+
+}
+
+.postbtn {
+  position: relative;
+  left: 650px;
+  top: 130px;
+}
+
+/* ................blog................. */
+
+.blogpost {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+  background-color: #d4d7dd;
+  width: 70%;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2%;
+  animation-delay: 1s;
+}
+
+.blogcontent {
+  text-align: justify;
+  color: black;
+  padding: 4%;
+  font-size: 1.2rem;
+}
+
+.blogtitle {
+  font-size: 2.2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  position: relative;
+  top: 20px;
+  background: -webkit-linear-gradient(#ffa1c5, #c7004c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blogdate {
+  color: black;
+  position: relative;
+  top: 35px;
+  font-size: 0.8rem;
+}
+
+.postblog {
+  animation-delay: 2s;
+}
+
+/* ...............media query............ */
+@media (min-width: 2500px) {
+  .heading {
+    position: relative;
+    left: 600px;
+    display: inline;
+  }
+
+  .item1, .item2 {
+    position: relative;
+    left: 300px;
+  }
+
+  .carousel-indicators {
+    position: relative;
+    left: 80px;
+  }
+
+  .user {
+    left: 500px;
+  }
+
+  .postbtn {
+    position: relative;
+    left: 1250px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+  .first {
+    position: relative;
+    right: 140px;
+  }
+
+  .item1, .item2 {
+    position: relative;
+    left: 20px;
+  }
+
+  .user {
+    position: relative;
+    left: 0px;
+    top: 40px;
+  }
+
+  .postbtn {
+    position: relative;
+    left: 690px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+  .first {
+    position: relative;
+    left: -20px;
+    bottom: 30px;
+  }
+
+  .item1, .item2 {
+    position: relative;
+    right: 80px;
+  }
+
+  .user {
+  left: 100px;
+  }
+
+  li {
+    position: relative;
+    right: 30px;
+  }
+
+  .postbtn {
+    position: relative;
+    left: 480px;
+  }
+}
+
+@media (max-width: 450px) {
+  .contact {
+  position: absolute;
+  left: 350px;
+  top: 40px;
+  font-size: 0.8rem;
+  }
+
+  .blog {
+    position: absolute;
+    left: 280px;
+    top: 40px;
+    font-size: 0.8rem;
+  }
+
+
+
+  .designer {
+    position: absolute;
+    top: -310px;
+    font-size: 2.5rem;
+    left: 160px;
+  }
+
+  .coder {
+    position: absolute;
+    top: -295px;
+    font-size: 5rem;
+    left: 185px;
+  }
+
+  .developer {
+    position: absolute;
+    top: -235px;
+    font-size: 3rem;
+    left: 240px;
+  }
+
+  .blogcontent {
+    padding-top: 40px;
+  }
+
+  .spcol {
+    width: 45%;
+  }
+
+
+
+  .col1 {
+    position: relative;
+    left: 10px;
+  }
+
+  .col2 {
+    position: relative;
+    left: 20px;
+  }
+
+  .aboutp {
+    margin-top: 15px;
+  }
+
+  .sph3 {
+    position: relative;
+    right: 10px;
+  }
+   .portCard {
+     position: relative;
+     left: 20px;
+     margin-bottom: 20px;
+   }
+
+   .item1, .item2 {
+     position: relative;
+     right: 300px;
+     width: 80%;
+   }
+
+   .user {
+     position: relative;
+     left: 20px;
+     top: 40px;
+
+   }
+
+   .clientname {
+     position: relative;
+     right:10px;
+
+   }
+
+   .client {
+    padding-right: 20px;
+   }
+
+   body {
+     position: absolute;
+   }
+
+   li {
+     position: relative;
+     right: 80px;
+   }
+
+   .carousel-control-prev {
+     position: relative;
+     top: 20px;
+     left: -90px;
+   }
+
+   .carousel-control-next {
+     position: relative;
+     left: 250px;
+   }
+
+   .flaticon {
+     position: relative;
+     top: 50px;
+   }
+
+  .first {
+    position: relative;
+    left: 0px;
+    bottom: 50px;
+  }
+
+  .myName {
+    font-size: 1.5rem;
+    position: relative;
+    right: 20px;
+  }
+
+  .postbtn {
+    position: relative;
+    left: 185px;
+  }
+
+  .postblog {
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+  .postbtn {
+    position: relative;
+    left: 350px;
+  }
+
+  .first {
+    position: relative;
+    left: -10px;
+  }
+
+  .spcol {
+    width: 40%;
+  }
+
+  .col1 {
+    left: 40px;
+
+  }
+
+  .col2 {
+    margin-left: 0px;
+  }
+
+
+
+    .designer {
+      position: absolute;
+      top: -270px;
+      font-size: 3rem;
+      left: 250px;
+    }
+
+    .coder {
+      position: absolute;
+      top: -260px;
+      font-size: 7rem;
+      left: 285px;
+    }
+
+    .developer {
+      position: absolute;
+      top: -180px;
+      font-size: 4rem;
+      left: 350px;
+    }
+
+    .portmiddle {
+      position: absolute;
+    }
+
+    .book {
+      position: relative;
+      left: 320px;
+    }
+
+    .blood {
+      position: relative;
+      left: 160px;
+      margin-top: 20px;
+    }
+
+    .item1, .item2 {
+      position: relative;
+      right: 150px;
+    }
+
+    li {
+      position: relative;
+      right: 50px;
+    }
+
+    .user {
+      position: relative;
+      bottom: 30px;
+      left: 20px;
+    }
+
+    h2 {
+      left: 0;
+    }
+
+    .carousel-control-prev {
+      position: absolute;
+      left: -115px;
+    }
+
+    .carousel-control-next {
+      position: absolute;
+      right: -100px;
+
+    }
+
+  .client {
+    position: relative;
+    top: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .postbtn {
+    position: relative;
+    left: 160px;
+  }
+}
